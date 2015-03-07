@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chawermaty Home Page</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+
+<script src="js/modernizr.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<!-- jQuery -->
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+</head>
+<body>
+<!--body-->
+<div id="home" class="top-header">	
+     <div class="container">
+		 <div class="logo">
+			 <a href="index.html"><object type="application/x-shockwave-flash" data="http://www.shawermatyae.com/LogoAnim.swf" width="291" height="115" id="logo" style="visibility: visible;"><param name="wmode" value="transparent"></object></a>
+		 </div>			  
+		 <div class="top-menu">
+			 <span class="menu"></span> 					 
+			 <ul>
+				 <li class="active"><a href="index.html">HOME</a></li>
+				 <li><a class="scroll" href="#about">ABOUT</a></li>	
+				 <li><a class="scroll" href="#whatsonthemenu">MENU</a></li>
+				 <li><a class="scroll" href="#franchise">FRANCHISE</a></li>				 
+				 <li><a class="scroll" href="#contact">CONTACT</a></li>						 
+			  </ul>					 
+		 </div>	
+		 <div class="clearfix"> </div>	
+		  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		 
+	 </div>
+</div>	
+<!---->
+<div class="banner">
+			<div class="slider">
+	    <ul class="rslides" id="slider2">
+	            <li><img src="images/banner1.jpg" alt=""/></li>
+	  	    	<li><img src="images/banner2.jpg"  alt=""/></li>
+	  	    	<li><img src="images/banner3.jpg"  alt=""/></li>
+	          </ul>
+	        </div>
+ </div>
+<!---->	
+
+<!---->
+<div id="about" class="about">
+	 <div class="aboutcontainer container">
+		 <div class="about-section2 col-md-6">
+			 <h2>ABOUT US</h2>
+			 <h3>Craving for a Mouthwatering Shawerma???</h3>
+			 <label></label>
+			 <p>Crave no more because Shawermaty Gourmet is here to serve you the best Shawerma in town.
+With more than 50 years of extensive Shawerma experience, Shawermaty Gourmet team have created the best mix of authentic spices, mixed with the highest quality of beef & chicken to craft for you specialty Shawerma Sandwiches & meals.</p>
+			 <a class="hvr-bounce-to-bottom" href="about.html">Read More</a>
+		 </div>
+		  <div class="about-section3 col-md-6">
+			 <h2>JOIN US</h2>
+			 <label></label>
+			 <div class="social2 row">							
+				<a href=""><i class="icon-facebook-sign"></i></a>
+				<a href=""><i class="icon-twitter-sign"></i></a>
+				<a href=""><i class="icon-instagram"></i></a>
+		 	 </div>
+		 	 <div class="row"><h1>Keep In Touch</h1></div>
+		 </div>
+	 </div>	 
+</div>
+<!---->
+
+<div id="franchise" class="services">
+	<a href="">
+	 	<div class="container">
+			 <div class="service-info">
+			 	<a href="">
+			 	<div class="contentservice">
+					 <div class="txtservice col-md-4"><h3>BECOME A </h3></div>
+					 <div class="col-md-4"><object type="application/x-shockwave-flash" data="http://www.shawermatyae.com/LogoAnim.swf" width="285" height="89" id="logo" style="visibility: visible;"><param name="wmode" value="transparent"></object></div>
+					 <div class="txtservice col-md-4"><h3>FRACHISEE</h3></div>
+				 </div>
+				 	<a class="hvr-bounce-to-bottom" href="franchise.html">Read More</a>
+				 </a>
+			</div>
+		</div>
+	 </div>
+	
+</div>
+
+
+<div class="team" id="whatsonthemenu">
+	 <div class="container">
+		 <div class="team-section">
+			 <h3>What's on the Menu</h3> 
+		 </div>
+		 <div class="team-grids">
+		 <div class="row">
+			 <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>SALADS</h3>
+					<img src="images/starter.png">
+			 </div>
+			  <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>FAVORITES</h3>
+					<img src="images/favourite.png">
+			 </div>
+			  <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>MATY MEALS</h3>
+					<img src="images/matygroupies.jpg">
+			 </div>
+			 <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>MATY MIXER</h3>
+					<img src="images/matmixer.png">
+			 </div>
+		</div>
+		<div class="row">
+			  <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>MEAT LOVER</h3>
+					<img src="images/meatlover.png">
+			 </div>
+			  <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>EXTRAS</h3>
+					<img src="images/extras.png">
+			 </div>
+			 <div class="menucontent col-md-3 col-sm-4 ">
+					<h3>BEVERAGES</h3>
+					<img src="images/bevrage.png">
+			 </div>
+			  <div class="bntrdmore col-md-3 ">
+					<a class="hvr-bounce-to-bottom" href="menu.html">Read More</a>
+			 </div>
+		</div>	  
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+
+
+<div id="contact" class="footer">
+	 <div class="container">
+	<div class="row ">
+		<div class="contactinfo col-md-6">
+			<ul>
+				<li>Jumeria Lake Towers(JLT) Cluster C / UAE,Dubai</li>
+				<li>phone +971 4 451 6661</li>
+				<li>Sheikh Zayed Road / UAE, Dubai</li>
+				<li>Shop#14 City Tower-1	Phone +971 4 342 5425</li>
+			</ul>
+		</div>
+		<div class="contactlink col-md-6">
+			<div class="row"><h1>Leave a Feedback </h1></div>
+			<div class="row logocontactpart"><img src="images/logo.png" alt="" /></div>
+			<div class="row"><h2><a href="contact.html">Contact US</a></h2></div>
+		</div>
+		<div></div>
+	</div>
+		 <div class="arrow row">
+			 <a class="scroll" href="#home"><img src="images/top.png" alt=""/></a>
+		 </div>
+	 </div>
+</div>
+
+	
+</body>
+</html>

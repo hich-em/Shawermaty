@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chawermaty Home Page</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+
+<script src="js/modernizr.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<!-- jQuery -->
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+</head>
+<body>
+<!--body-->
+<div id="home" class="top-header">	
+     <div class="container">
+		 <div class="logo">
+			 <a href="index.html"><object type="application/x-shockwave-flash" data="http://www.shawermatyae.com/LogoAnim.swf" width="291" height="115" id="logo" style="visibility: visible;"><param name="wmode" value="transparent"></object></a>
+		 </div>			  
+		 <div class="top-menu">
+			 <span class="menu"></span> 					 
+			 <ul>
+				 <li><a href="index.html">HOME</a></li>
+				 <li><a href="about.html">ABOUT</a></li>	
+				 <li><a href="menu.html">MENU</a></li>
+				 <li><a href="franchise.html">FRANCHISE</a></li>
+				 <li class="active"><a href="contact.html">CONTACT</a></li>						 
+			  </ul>					 
+		 </div>	
+		 <div class="clearfix"> </div>	
+		  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		 
+	 </div>
+</div>	
+<!---->
+<div class="banner mapp ">
+			<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Shawermaty+-+Dubai+-+United+Arab+Emirates&amp;aq=0&amp;oq=shawermaty+&amp;sll=37.0625,-95.677068&amp;sspn=40.545434,86.572266&amp;ie=UTF8&amp;hq=Shawermaty+-&amp;hnear=Dubai+-+United+Arab+Emirates&amp;t=m&amp;cid=17910104226125452506&amp;ll=25.069429,55.140381&amp;spn=0.559762,0.877533&amp;z=10&amp;iwloc=A&amp;output=embed"></iframe>
+ </div>
+<!---->	
+
+
+
+<div id="contact" class="contact">
+	 <div class="container">
+		 <div class="contact-info ">
+			<h3 class="contacttitle">Contact Us</h3>
+			
+	 </div>
+	  <div class="contact-details col-md-9">				 
+			 <form>
+				 <input type="text" placeholder="Name" required/>
+				 <input type="text" placeholder="Mail" required/>
+				 <input type="text" placeholder="Phone" required/>
+				 <input type="text" placeholder="Company" required/>
+				 <select class="sub"/>
+				 <option>General Inquiry</option>
+				 <option>FeedBack</option>
+				 <option>Franchise</option>
+				 </select>
+				 <textarea placeholder="Message"></textarea>
+				 <input type="submit" value="SEND"/>
+			 </form>
+	  </div>
+	  <div class="contact-bottom col-md-3">
+		 <div class="col-md-12 col-xs-12 contact-grid">
+			 <img src="images/c1.png" alt=""/>
+			 <h3>+971 4 451 6661</h3>
+		 </div>
+		 <div class="col-md-12 col-xs-12 contact-grid">
+			 <img src="images/c2.png" alt=""/>
+			 <h3><a href="mailto:info@example.com">example@mail.com</a></h3>
+		 </div>
+		 <div class="col-md-12 col-xs-12 contact-grid">
+			 <img src="images/c3.png" alt=""/>
+			 <h3>heikh Zayed Road / UAE, Dubai</h3>
+			 <h3>Shop#14 City Tower-1</h3>
+		 </div>
+		 <div class="clearfix"></div>
+	  </div>
+	 </div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+	<div class="row ">
+		<div class="contactinfo col-md-6">
+			<ul>
+				<li>Jumeria Lake Towers(JLT) Cluster C / UAE,Dubai</li>
+				<li>phone +971 4 451 6661</li>
+				<li>Sheikh Zayed Road / UAE, Dubai</li>
+				<li>Shop#14 City Tower-1	Phone +971 4 342 5425</li>
+			</ul>
+		</div>
+		<div class="contactlink col-md-6">
+			<div class="row"><h1>Leave a Feedback </h1></div>
+			<div class="row logocontactpart"><img src="images/logo.png" alt="" /></div>
+			<div class="row"><h2><a href="contact.html">Contact US</a></h2></div>
+		</div>
+		<div></div>
+	</div>
+		 <div class="arrow row">
+			 <a href="#home"><img src="images/top.png" alt=""/></a>
+		 </div>
+	 </div>
+</div>
+
+	
+</body>
+</html>
